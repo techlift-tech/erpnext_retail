@@ -15,7 +15,7 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/erpnext_retail/css/erpnext_retail.css"
+app_include_css = "/assets/erpnext_retail/css/erpnext_retail.css"
 app_include_js = "/assets/erpnext_retail/js/erpnext_retail.js"
 
 # include js, css files in header of web template
@@ -29,7 +29,8 @@ page_js = {"point-of-sale": "public/js/point_of_sale.js"}
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
 doctype_js = {
-	"Purchase Invoice": "public/js/purchase_invoice.js"
+	"Purchase Invoice": "public/js/purchase_invoice.js",
+    	"Sales Invoice": "public/js/sales_invoice_extend.js"
 }
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}

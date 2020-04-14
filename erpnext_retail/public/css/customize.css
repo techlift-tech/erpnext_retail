@@ -1,0 +1,17 @@
+.dt-scrollable .dt-cell.dt-cell--col-0,
+.dt-scrollable .dt-cell.dt-cell--col-1,
+.dt-scrollable .dt-cell.dt-cell--col-2{
+    position: sticky;
+    z-index: 999;
+   
+}
+.dt-scrollable .dt-cell.dt-cell--col-0{
+    left: 0px;
+}
+.dt-scrollable .dt-cell.dt-cell--col-1{
+    left: 33px;
+}
+.dt-scrollable .dt-cell.dt-cell--col-2{
+    left: 65px;
+    width: 120px;
+}
